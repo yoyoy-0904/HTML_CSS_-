@@ -1,0 +1,261 @@
+```css
+    /* =========================
+       全局样式
+       ========================= */
+
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: rgba(51, 51, 51, 0.82);
+}
+
+
+/* =========================
+   最大容器
+   ========================= */
+
+.container {
+    width: 900px;
+    margin: 30px auto;
+    border: 1px solid #cbd5e1;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+
+/* =========================
+   页头
+   ========================= */
+
+.header {
+    text-align: center;
+    padding: 30px;
+    background-color: #dbeafe;
+}
+
+#page-title {
+    font-size: 32px;
+    margin: 0 0 10px 0;
+    color: #1e3a8a;
+}
+
+
+/* =========================
+   普通区域
+   ========================= */
+
+.section {
+    width: 840px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #cbd5e1;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.section h2 {
+    color: #2563eb;
+    margin-top: 0;
+}
+
+
+/* =========================
+   常用网页
+   ========================= */
+
+.websites {
+    text-align: center;
+    font-size: 0;
+}
+
+.websites span,
+.websites a {
+    display: inline-block;
+    padding: 12px 8px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    vertical-align: top;
+}
+
+.favorite-site {
+    width: 180px;
+    background-color: #f59e0b;
+    color: pink;
+}
+
+.websites a {
+    width: 145px;
+    color: #2563eb;
+    background-color: rgba(239, 241, 255, 0.78);
+    text-decoration: none;
+}
+
+.websites a:hover {
+    background-color: #2563eb;
+    color: pink;
+}
+
+
+/* =========================
+   自我介绍表格
+   ========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid #94a3b8;
+    padding: 10px;
+}
+
+.info-title {
+    width: 120px;
+    font-weight: bold;
+    background-color: #eff6ff;
+}
+
+.photo-cell {
+    width: 250px;
+    text-align: center;
+}
+
+.photo-cell img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #64748b;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.personal-introduction {
+    line-height: 1.8;
+    background-color: #f8fafc;
+}
+
+
+/* =========================
+   两个列表区域
+   ========================= */
+
+.list-area {
+    display: inline-block;
+    width: 395px;
+    min-height: 220px;
+    padding: 20px;
+    border: 1px solid #94a3b8;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.course-list {
+    margin-right: 40px;
+    background-color: #eff6ff;
+}
+
+.hobby-list {
+    background-color: #f0fdf4;
+}
+
+.list-area h2 {
+    color: #2563eb;
+}
+
+.list-area li {
+    margin: 12px 0;
+}
+
+
+/* =========================
+   个性化区域
+   ========================= */
+
+.special-area {
+    padding: 20px;
+    border-left: 5px solid #f59e0b;
+    background-color: #fffbeb;
+}
+
+.special-area p {
+    line-height: 1.8;
+}
+
+
+/* =========================
+   表单
+   ========================= */
+
+.form-item {
+    margin: 15px 0;
+}
+
+.form-item > label:first-child {
+    display: inline-block;
+    width: 80px;
+}
+
+input[type="text"],
+select {
+    width: 320px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #94a3b8;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #94a3b8;
+    margin-top: 8px;
+    vertical-align: top;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+.radio-label {
+    width: auto !important;
+    display: inline !important;
+}
+
+.form-buttons {
+    margin-left: 80px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #2563eb;
+    background-color: #2563eb;
+    color: pink;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+
+/* =========================
+   页脚
+   ========================= */
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e3a8a;
+    color: pink;
+}
+```

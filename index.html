@@ -1,0 +1,196 @@
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- 页头 -->
+    <header class="header">
+        <h1 id="page-title">我的个人主页</h1>
+        <p>你好，我是一名正在努力学习 HTML 和 CSS 的学生。</p>
+    </header>
+
+
+    <!-- 常用网页 -->
+    <section class="section">
+        <h2>我常用的网页</h2>
+
+        <div class="websites">
+            <span class="favorite-site">我最常使用的网页</span>
+
+            <a href="https://www.baidu.com" target="_blank">百度</a>
+
+            <a href="https://www.bilibili.com" target="_blank">哔哩哔哩</a>
+
+            <a href="https://www.github.com" target="_blank">GitHub</a>
+
+            <a href="https://www.csdn.net" target="_blank">CSDN</a>
+        </div>
+    </section>
+
+
+    <!-- 自我介绍 -->
+    <section class="section">
+        <h2>自我介绍</h2>
+
+        <table>
+            <tr>
+                <td class="info-title">姓名</td>
+                <td>团吨吨</td>
+                <td rowspan="7" class="photo-cell">
+                    <img src="images/avatar.jpg" alt="我的照片">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="info-title">性别</td>
+                <td>女</td>
+            </tr>
+
+            <tr>
+                <td class="info-title">年龄</td>
+                <td>19</td>
+            </tr>
+
+            <tr>
+                <td class="info-title">专业</td>
+                <td>网络空间安全</td>
+            </tr>
+
+            <tr>
+                <td class="info-title">班级</td>
+                <td>网安2501班</td>
+            </tr>
+
+            <tr>
+                <td class="info-title">年级</td>
+                <td>2025级</td>
+            </tr>
+
+            <tr>
+                <td class="info-title">城市</td>
+                <td>广州</td>
+            </tr>
+
+            <tr>
+                <td colspan="3" class="personal-introduction">
+                    <strong>个人介绍：</strong>
+                    我喜欢学习计算机相关知识，对 HTML、CSS 和 Python 都比较感兴趣。
+                    在学习过程中，我希望不断提高自己的编程能力和解决问题的能力嘿嘿。
+                </td>
+            </tr>
+        </table>
+    </section>
+
+
+    <!-- 两个列表区域 -->
+    <section class="section">
+        <div class="list-area course-list">
+            <h2>本学期喜爱课程 TOP3</h2>
+
+            <ol>
+                <li>Python程序设计</li>
+                <li>Java Web程序设计</li>
+                <li>计算机网络</li>
+            </ol>
+        </div>
+
+        <div class="list-area hobby-list">
+            <h2>兴趣爱好</h2>
+
+            <ul>
+                <li>听音乐</li>
+                <li>看电影</li>
+                <li>玩游戏</li>
+                <li>旅行</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- 个性化区域 -->
+    <section class="section">
+        <div class="special-area">
+            <h2>我的学习目标</h2>
+
+            <p>
+                我的目标是认真学习专业知识，掌握 HTML、CSS 和 Python，
+                逐渐提高自己的编程能力。
+            </p>
+
+            <p>
+                <strong>我的座右铭：</strong>
+                路漫漫其修远兮，吾将上下而求索
+            </p>
+        </div>
+    </section>
+
+
+    <!-- 网页评分 -->
+    <section class="section">
+        <h2>网页评分</h2>
+
+        <form>
+
+            <div class="form-item">
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name" placeholder="请输入姓名">
+            </div>
+
+            <div class="form-item">
+                <label>性别：</label>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male" class="radio-label">男</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" class="radio-label">女</label>
+            </div>
+
+            <div class="form-item">
+                <label for="rating">评分：</label>
+
+                <select id="rating" name="rating">
+                    <option value="5">5星</option>
+                    <option value="4">4星</option>
+                    <option value="3">3星</option>
+                    <option value="2">2星</option>
+                    <option value="1">1星</option>
+                </select>
+            </div>
+
+            <div class="form-item">
+                <label for="message">留言：</label>
+
+                <textarea id="message" name="message"
+                          placeholder="请输入你的留言"></textarea>
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit">提交</button>
+                <button type="reset">重置</button>
+            </div>
+
+        </form>
+    </section>
+
+
+    <!-- 页脚 -->
+    <footer>
+        我的个人主页 ｜ 姓名：团吨吨 ｜ 班级：网安2501班
+    </footer>
+
+</div>
+
+</body>
+</html>
+```
